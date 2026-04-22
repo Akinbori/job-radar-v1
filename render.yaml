@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bayo-job-radar-api
+    env: docker
+    rootDir: backend
+  - type: web
+    name: bayo-job-radar-frontend
+    env: docker
+    rootDir: frontend
